@@ -48,7 +48,7 @@ const App = () => {
     return(
       <div id='contenedor-condicional-mostrar-materia'>
         <Materia ID={id} volver={setMostrarMateria}/>
-        <p>Para más información el plan de estudios oficial de la carrera <a href='https://www.unpaz.edu.ar/sites/default/files/Reso%20CS%20171-18.pdf' about='_blank'>acá</a></p>
+        <p>Para más información el plan de estudios oficial de la carrera <a href='https://www.unpaz.edu.ar/sites/default/files/Reso%20CS%20171-18.pdf' target='_blank'>acá</a></p>
       </div>
     )
   }
