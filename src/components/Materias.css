@@ -1,0 +1,78 @@
+@media (min-width: 582px) {
+    .contenedor-lista-materias{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: .5em;
+    }
+    h6{
+        font-size: 0.8em;
+        font-weight: normal;
+        margin: 0.8em 0em;
+    }
+    .contenedor-materia{
+        display: grid;
+        padding-bottom: 0.3em;
+        grid-template-columns: 78% 22%;
+        border-bottom: 1px solid gray;
+        place-content: center;
+    }
+    
+    button{
+        font-size: 0.7em;
+        border: none;
+        cursor: pointer;
+        background-color: #cf8615;
+        color: white;
+    }
+    
+    button:hover{
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 582px){
+    h1{
+        font-size: 1.4em;
+    }
+    
+    h2{
+        font-size: 1.2em;
+    }
+
+    #year{
+        text-align: center;
+        padding-bottom: 0.4em;
+        margin-bottom: 0.2em;
+    }
+    .contenedor-lista-materias{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: .5em;
+    }
+    h6{
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: normal;
+        margin: 0.8em 0em;
+    }
+    .contenedor-materia{
+        display: grid;
+        padding-bottom: 0.3em;
+        grid-template-columns: 100%;
+        border-bottom: 1px solid gray;
+        place-content: center;
+    }
+    
+    button{
+        padding: 0.6em 0em;
+        font-size: 0.9em;
+        border: none;
+        cursor: pointer;
+        background-color: #cf8615;
+        color: white;
+    }
+    
+    button:hover{
+        font-weight: bolder;
+    }
+}

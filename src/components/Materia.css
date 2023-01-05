@@ -1,0 +1,24 @@
+#info-materia{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+span{
+    font-weight: bold;
+}
+#titulo-de-materia{
+    font-size: 1.4em;
+}
+
+#boton-volver{
+    padding: 0.5em;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:visited{
+    color: black;
+}
