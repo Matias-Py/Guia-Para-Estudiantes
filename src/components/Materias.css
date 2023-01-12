@@ -59,7 +59,7 @@
         display: grid;
         padding-bottom: 0.3em;
         grid-template-columns: 100%;
-        border-bottom: 1px solid gray;
+        border: none;
         place-content: center;
     }
     
