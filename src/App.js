@@ -25,7 +25,6 @@ const App = () => {
           <div id='header'>
             <h1>LICENCIATURA EN GESTIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN</h1>
             <h2>Guía de materias</h2>
-            {console.log(lista)}
           </div>
           <div id='years-container'>
             <h3 id='year'>Primer año</h3>
