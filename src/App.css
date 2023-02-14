@@ -1,5 +1,5 @@
 *{
-  font-family:"ubuntu"
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -13,13 +13,13 @@ h2{
   font-size: 1.2em;
   margin-bottom: 0em;
   margin-top: 0.2em;
-  font-weight: bold;
+  font-weight: 700;
   padding-bottom: 0.5em;
 }
 
 #header{
   padding: 0.9em;
-  font-weight: bolder;
+  font-weight: 700;
   width: 80%;
   margin: 1em;
   height: auto;
