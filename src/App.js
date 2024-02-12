@@ -11,7 +11,7 @@ const App = () => {
   const [id, setId] = useState("")
   const hook = () => {
     axios
-      .get("https://apiunpaz-production.up.railway.app/lgti/materias")
+      .get("https://lgtiapi.onrender.com/lgti/materias")
       .then(response => {
         setLista(response.data)
       })
